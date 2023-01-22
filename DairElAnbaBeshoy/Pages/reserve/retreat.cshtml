@@ -1,0 +1,67 @@
+﻿@page
+@model DairElAnbaBeshoy.Pages.reserve.retreatModel
+@{
+    Layout = "/Pages/Shared/_FormsLayout.cshtml";
+    	ViewData["Title"] = "حجز خلوة روحية";
+}
+
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">هحجز معاد الخلوة</h4>
+            <p class="card-description">
+                دير الانبا بيشوى العامر
+            </p>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="Input.ReserverFullName">الاسم</label>
+                    <input type="text" class="form-control" asp-for="Input.ReserverFullName" placeholder="الاسم">
+                    <span asp-validation-for="Input.ReserverFullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.ResrversNumber">عدد الافراد</label>
+                    <input type="number" class="form-control" asp-for="Input.ResrversNumber" placeholder="عدد الافراد">
+                    <span asp-validation-for="Input.ResrversNumber" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Input.ResrveDate">تاريخ الخلوة </label>
+                    <input type="date" class="form-control form-control-lg" asp-for="Input.ResrveDate">
+                    <span asp-validation-for="Input.ResrveDate" class="text-danger"></span>
+                </div>
+
+
+               
+
+
+                <div class="form-group">
+                    <label asp-for="Input.IdCardPhotoFile">صورة البطاقه</label>
+                    <input type="file"  class="file-upload-default" asp-for="Input.IdCardPhotoFile">
+                    <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled="" placeholder="Upload Image">
+                        <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-primary" type="button">تحميل</button>
+                        </span>
+                    </div>
+                    <span asp-validation-for="Input.IdCardPhotoFile" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.GoverGovernorate">المحافظه</label>
+                    <input type="text" class="form-control" asp-for="Input.GoverGovernorate" placeholder="Location">
+                    <span asp-validation-for="Input.GoverGovernorate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.Notes">ملاحظات</label>
+                    <textarea class="form-control" asp-for="Input.Notes" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">تسجيل</button>
+                <a href="/" class="btn btn-light">الغاء</a>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

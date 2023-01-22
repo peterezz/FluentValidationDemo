@@ -1,0 +1,126 @@
+﻿@page
+@model RegisterModel
+
+@{
+    Layout = "/Pages/Shared/_FormsLayout.cshtml"; ;
+    ViewData["Title"] = "تسجيل حساب جديد";
+}
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+                            <!--<div class="brand-logo">
+                              <img src="../../images/logo-dark.svg" alt="logo">
+                            </div>-->
+                            <h4>بيت الخلوة</h4>
+                            <h6 class="font-weight-light">دير الانبا بيشوى العامر بوداى النطرون</h6>
+                            <form class="pt-3" method="post">
+                                <div asp-validation-summary="ModelOnly" style="color:red"></div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" asp-for="Input.FullName" placeholder="الاسم الرباعى">
+                                    <span asp-validation-for="Input.FullName" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-lg" asp-for="Input.Email" placeholder="البريد الالكترونى">
+                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control form-control-lg" asp-for="Input.PhoneNumber"  placeholder="التليفون">
+                                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="date" class="form-control form-control-lg" asp-for="Input.BirthDate">
+                                    <span asp-validation-for="Input.BirthDate" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" asp-for="Input.WorkKnolege" placeholder="الدراسه/العمل">
+                                    <span asp-validation-for="Input.WorkKnolege" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+
+                                    <select class="form-control form-control-lg" asp-for="Input.Governorate">
+                                        <option disabled selected>المحافظه</option>
+                                        <option>القاهرة </option>
+                                        <option>الإسكندرية</option>
+                                        <option>الإسماعيلية</option>
+                                        <option>أسوان</option>
+                                        <option>أسيوط</option>
+                                        <option>الأقصر</option>
+                                        <option>البحر الأحمر</option>
+                                        <option>البحيرة	</option>
+                                        <option>بني سويف</option>
+                                        <option>بورسعيد</option>
+                                        <option>جنوب سيناء	</option>
+                                        <option>الجيزة</option>
+                                        <option>الدقهلية</option>
+                                        <option>دمياط</option>
+                                        <option>سوهاج</option>
+                                        <option>السويس</option>
+                                        <option>الشرقية</option>
+                                        <option>شمال سيناء</option>
+                                        <option>الغربية</option>
+                                        <option>الفيوم</option>
+                                        <option>القليوبية</option>
+                                        <option>قنا</option>
+                                        <option>كفر الشيخ</option>
+                                        <option>مطروح</option>
+                                        <option>المنوفية	</option>
+                                        <option>المنيا</option>
+                                        <option>	الوادي الجديد	</option>
+
+                                    </select>
+                                    <span asp-validation-for="Input.Governorate" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" asp-for="Input.Church" placeholder="الكنيسه">
+                                        <span asp-validation-for="Input.Church" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" asp-for="Input.Diocese" placeholder="الايبارشيه">
+                                    <span asp-validation-for="Input.Diocese" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" asp-for="Input.FatherOfConfession" placeholder="اب الاعتراف">
+                                    <span asp-validation-for="Input.FatherOfConfession" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="password" class="form-control form-control-lg"asp-for="Input.Password" placeholder="كلمه السر">
+                                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control form-control-lg" asp-for="Input.ConfirmPassword" placeholder="كلمه السر">
+                                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label text-muted">
+                                            <input type="checkbox" class="form-check-input" asp-for="Input.AgreeToAllterms">
+                                            اوافق على جميع الشروط
+                                        </label>
+                                        <span asp-validation-for="Input.AgreeToAllterms" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <input type="submit" value="تسجيل" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" />
+                                </div>
+                                <div class="text-center mt-4 font-weight-light">
+                                    لدى حساب <a href="login.html" class="text-primary">تسجيل الدخول</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+
