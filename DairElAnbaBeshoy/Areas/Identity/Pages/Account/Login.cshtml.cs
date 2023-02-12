@@ -58,15 +58,15 @@ namespace DairElAnbaBeshoy.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Required]
-            [EmailAddress]
+            [Required(ErrorMessage ="يجب ادخال الايميل")]
+            [EmailAddress(ErrorMessage ="صيغة الايميل غير صحيحة")]
             public string Email { get; set; }
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Required]
+            [Required(ErrorMessage ="يجب ادخال كلمة المرور")]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 

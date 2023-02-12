@@ -15,7 +15,8 @@
           "Microsoft.AspNetCore.Identity.UI": "6.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.13",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11",
+          "System.Linq.Dynamic.Core": "1.2.25"
         },
         "runtime": {
           "DairElAnbaBeshoy.dll": {}
@@ -1937,6 +1938,14 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
+      "System.Linq.Dynamic.Core/1.2.25": {
+        "runtime": {
+          "lib/net6.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.25.0",
+            "fileVersion": "1.2.25.0"
+          }
+        }
+      },
       "System.Linq.Expressions/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3414,6 +3423,13 @@
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.2.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qpkqDHLNxGR1qBNrdnnPfJFfsKSWy3nUELC/BWxP8vwSaf8vVwecZzXOV4B52yOGit94g0pLWJEe30a4L1tE7g==",
+      "path": "system.linq.dynamic.core/1.2.25",
+      "hashPath": "system.linq.dynamic.core.1.2.25.nupkg.sha512"
     },
     "System.Linq.Expressions/4.3.0": {
       "type": "package",

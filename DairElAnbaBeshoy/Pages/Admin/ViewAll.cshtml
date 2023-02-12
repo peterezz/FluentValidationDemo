@@ -1,0 +1,74 @@
+﻿
+@page
+@model DairElAnbaBeshoy.Pages.Admin.ViewAllModel
+@{
+    ViewData["Title"] = "عرض كل الحجزات";
+}
+
+
+<link href="/datatables/css/dataTables.bootstrap4.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<section class="content">
+    <div class="container">
+        <div class="block-header">
+            <h2>الحجزات </h2>
+        </div>
+        <!-- Input -->
+        <div class="row clearfix">
+            <div class="alert alert-success d-none" id="alert" role="alert">
+                تم الغاء الطلب
+            </div>
+            <div class="card">
+                <div class="header">
+
+                </div>
+                <div class="body">
+                    <br />
+
+                    <div class="row clearfix">
+
+                        <table id="Reservers" class="table table-striped table-bordered dt-responsive nowrap">
+                            <thead>
+                                <tr>
+                                    <th>الاسم بالكامل</th>
+                                    <th>عدد الافراد </th>
+                                    <th> حالة الحجز</th>
+                                    <th>تاريخ الحجز</th>
+                                    <th>ساعة الحجز</th>
+                                    <th>ملاحظات</th>
+
+                                    <th>تحديث</th>
+                                    <th>الغاء</th>
+                                </tr>
+                            </thead>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- #END# Input -->
+
+</section>
+
+
+
+
+@section scripts {
+    <!--datatable-->
+    <script src="/datatables/js/jquery.dataTables.js"></script>
+    <script src="/datatables/js/dataTables.bootstrap4.js"></script>
+         <script src="/js/DataTables/allRetriversDataTable.js"></script>
+    <script src="/lib/bootbox.js/bootbox.min.js"></script>
+    <script src="/js/ajaxcalls/deleteretreaveajax.js"></script>
+}

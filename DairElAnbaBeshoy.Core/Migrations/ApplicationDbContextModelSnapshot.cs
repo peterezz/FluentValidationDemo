@@ -127,7 +127,7 @@ namespace DairElAnbaBeshoy.Core.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("GoverGovernorate")
+                    b.Property<string>("Governorate")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -164,6 +164,34 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.HasIndex("LoggedinUserId");
 
                     b.ToTable("Retreaves");
+                });
+
+            modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.RetreaveStatuses", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("ReservationStatus")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RetreaveStatuses");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -310,6 +338,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.Navigation("ApplicationUser");
                 });
 
+            modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.RetreaveStatuses", b =>
+                {
+                    b.HasOne("DairElAnbaBeshoy.Core.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("retreaveStatuses")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -364,6 +403,8 @@ namespace DairElAnbaBeshoy.Core.Migrations
             modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Retreaves");
+
+                    b.Navigation("retreaveStatuses");
                 });
 #pragma warning restore 612, 618
         }

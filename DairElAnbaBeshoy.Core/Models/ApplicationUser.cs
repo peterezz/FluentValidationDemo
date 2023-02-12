@@ -15,6 +15,7 @@ namespace DairElAnbaBeshoy.Core.Models
         public string Church { get; set; } = string.Empty;
 
         public ICollection<Retreaves> Retreaves { get; set; }
+        public ICollection<RetreaveStatuses> retreaveStatuses { get; set; }
 
 
     }

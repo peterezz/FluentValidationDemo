@@ -22,18 +22,18 @@ namespace DairElAnbaBeshoy.AppLogic.Validators
                 .WithMessage("يجب ادخال عدد الافراد")
                 .GreaterThan(0)
                 .WithMessage("عدد الافراد غير صحيح");
-            RuleFor(prop => prop.ResrveDate)
-                .Must(prop => prop.HasValue)
+            RuleFor(prop => prop.ReserveDateTime)
+                .Must(prop => prop == null)
                     .WithMessage("يجب اختيار يوم معين")
                 .DependentRules(() =>
                 {
-                    RuleFor(prop => prop.ResrveDate)
-                   .Must(prop => prop.Value > DateTime.Now)
+                    RuleFor(prop => prop.ReserveDateTime)
+                   .Must(prop => prop > DateTime.Now)
                   .WithMessage("يجب على الاقل حجز خلوة بعد يوم من الان");
                 });
 
 
-            RuleFor(prop => prop.GoverGovernorate)
+            RuleFor(prop => prop.Governorate)
                 .NotEmpty()
                 .WithMessage("يجب ادخال اسم المحافظة");
             RuleFor(prop => prop.IdCardPhotoFile)

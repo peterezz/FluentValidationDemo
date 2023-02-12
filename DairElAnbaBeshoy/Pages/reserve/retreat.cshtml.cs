@@ -17,7 +17,7 @@ namespace DairElAnbaBeshoy.Pages.reserve
         private readonly UserManager<ApplicationUser> userManager;
 
         [BindProperty]
-        public RetreaveVM Input { get; set; }
+        public RetreaveVM? Input { get; set; }
         private readonly RetreaveValidator retreaveValidator;
         public retreatModel(RegisterRetreaveManager registerRetreaveManager,UserManager<ApplicationUser>userManager )
         {
@@ -28,7 +28,7 @@ namespace DairElAnbaBeshoy.Pages.reserve
         public void OnGet()
         {
         }
-        public async Task<IActionResult> OnPostAsync()
+        public  IActionResult OnPost()
         {
             var result = retreaveValidator.Validate(Input);
             if(!result.IsValid)

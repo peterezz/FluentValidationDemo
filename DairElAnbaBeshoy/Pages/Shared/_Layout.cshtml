@@ -1,4 +1,7 @@
-﻿
+﻿@using DairElAnbaBeshoy.Core.Defaults
+
+@inject SignInManager<ApplicationUser> signinManager;
+@inject UserManager<ApplicationUser> userManager;
 <!doctype html>
 <html lang="en">
 <head>
@@ -74,15 +77,32 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/#about">نبذة عن الدير</a>
                         </li>
-
+                    @if (signinManager.IsSignedIn(User))
+                    {
+                        @if(User.IsInRole(nameof(Roles.BasicUser)))
+                        {
                         <li class="nav-item">
                             <a class="nav-link" href="/reserve/retreat">حجز الخلوة </a>
                         </li>
+                        }else if(User.IsInRole(nameof(Roles.Admin)))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/admin/viewall"> عرض كل الحجزات </a>
+                            </li>
+                        }
 
-
+                        <li class="nav-item">
+                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button type="submit" class="nav-link btn btn-link ">تسجيل الخروج</button>
+                            </form>
+                        </li>
+                    }
+                    @if(!signinManager.IsSignedIn(User)){
                         <li class="nav-item">
                             <a class="nav-link" href="/identity/account/login">تسجيل الدخول </a>
                         </li>
+                        }
+
                     </ul>
                 </div>
             </div>
@@ -101,5 +121,7 @@
         <script src="/js/custom.js"></script>
 
 
+        
+      @RenderSection("Scripts", false)
 </body>
 </html>

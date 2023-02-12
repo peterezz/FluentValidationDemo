@@ -1,0 +1,79 @@
+﻿@page
+@model DairElAnbaBeshoy.Pages.Admin.UpdateReservationModel
+@{
+    Layout = "/Pages/Shared/_FormsLayout.cshtml";
+    	ViewData["Title"] = "تحديث الطلب";
+}
+
+<style>
+img {
+  border-radius: 8px;
+display:block;
+margin: auto;
+width:50%;
+}
+</style>
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">تفاصيل الخلوة</h4>
+            <p class="card-description">
+                دير الانبا بيشوى العامر
+            </p>
+
+            <form class="forms-sample" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="retreave.IdCardPhotoFile">صورة البطاقه</label>
+                <img src="@Model.retreave.IdCardPhotoPath" alt="صورة البطاقة" width="300" height="300"><span>
+                    <input type="hidden" asp-for="retreave.Id" />
+                </span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="retreave.ReserverFullName">الاسم</label>
+                    <input  class="form-control" asp-for="retreave.ReserverFullName" placeholder="الاسم" readonly>
+                    <span>
+                        <input type="hidden" asp-for="retreave.LoggedinUserId"/>
+                    </span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="retreave.ResrversNumber">عدد الافراد</label>
+                    <input class="form-control" asp-for="retreave.ResrversNumber" placeholder="عدد الافراد" readonly>
+                    <span>
+                        <input type="hidden" asp-for="retreave.IdCardPhoto"/>
+                    </span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="retreave.ReserveDateTime">تاريخ الخلوة </label>
+                    <input class="form-control form-control-lg" asp-for="retreave.ReserveDateTime" readonly>
+                   
+                </div>
+                <div class="form-group">
+                    <label asp-for="retreave.Governorate">المحافظه</label>
+                    <input  class="form-control" asp-for="retreave.Governorate" placeholder="Location" readonly>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="retreave.Notes">ملاحظات</label>
+                    <textarea class="form-control" asp-for="retreave.Notes" rows="4" readonly></textarea>
+                </div>
+
+
+
+                
+                <div class="form-group">
+                    <label asp-for="retreave.IsApproved">الموافقة على الخلوة  </label>
+                    <input type="checkbox" class="form-control form-control-lg" asp-for="retreave.IsApproved" >
+
+
+
+                </div>
+
+                <button type="submit" class="btn btn-primary mr-2">قبول الطلب</button>
+                <a href="/admin/deletereservation?ReservationID=@Model.retreave.Id" class="btn btn-light">رفض الطلب</a>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DairElAnbaBeshoy.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230120163902_addedRetreaveTable")]
-    partial class addedRetreaveTable
+    [Migration("20230212135423_UpdatedRetreavesScheme")]
+    partial class UpdatedRetreavesScheme
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -129,7 +129,7 @@ namespace DairElAnbaBeshoy.Core.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("GoverGovernorate")
+                    b.Property<string>("Governorate")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -137,13 +137,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool?>("IsApproved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
                     b.Property<string>("LoggedinUserId")
                         .IsRequired()
                         .HasMaxLength(450)
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Notes")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ReserverFullName")
@@ -189,20 +193,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("Roles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "962d8c1f-b68d-4722-84a7-14bd37697c44",
-                            ConcurrencyStamp = "13ef5f4a-ab9d-4e78-b628-db305f82874d",
-                            Name = "Admin"
-                        },
-                        new
-                        {
-                            Id = "9f38b249-a33e-475e-b8f8-e8ba94e9789e",
-                            ConcurrencyStamp = "1fdfb835-da4e-49fa-a432-7875c67211f3",
-                            Name = "BasicUser"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

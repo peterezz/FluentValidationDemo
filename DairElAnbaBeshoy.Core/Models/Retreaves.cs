@@ -14,7 +14,7 @@ namespace DairElAnbaBeshoy.Core.Models
         public int ResrversNumber { get; set; }
         public DateTime ResrveDate { get; set; }
         public string IdCardPhoto { get; set; } = string.Empty;
-        public string GoverGovernorate { get; set; } = string.Empty;
+        public string Governorate { get; set; } = string.Empty;
         public string? Notes { get; set; } = string.Empty;
         public bool? IsApproved { get; set; }
         public ApplicationUser ApplicationUser { get; set; }

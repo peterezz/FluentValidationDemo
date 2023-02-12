@@ -564,3 +564,5 @@ E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy\obj\Debu
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy\obj\Debug\net6.0\DairElAnbaBeshoy.pdb
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy\obj\Debug\net6.0\DairElAnbaBeshoy.genruntimeconfig.cache
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy\obj\Debug\net6.0\ref\DairElAnbaBeshoy.dll
+E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy\bin\Debug\net6.0\libman.json
+E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

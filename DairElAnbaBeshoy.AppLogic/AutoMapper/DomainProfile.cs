@@ -13,7 +13,11 @@ namespace DairElAnbaBeshoy.AppLogic.AutoMapper
     {
         public DomainProfile()
         {
-            CreateMap<Retreaves, RetreaveVM>().ReverseMap();
+            CreateMap<Retreaves, RetreaveVM>()
+                .ForMember(retreaveVM => retreaveVM.ReserveDateTime
+                , map=>map.MapFrom(retreve => retreve.ResrveDate
+                )).ReverseMap();
+            CreateMap<RetreaveStatuses, RetreaveStatusesVM>().ReverseMap();
         }
     }
 }
