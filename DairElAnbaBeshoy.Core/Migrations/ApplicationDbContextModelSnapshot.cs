@@ -31,18 +31,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Church")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DateOfBirth")
+                    b.Property<DateTime?>("DateOfBirth")
+                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Diocese")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -63,7 +62,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Governorate")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -103,7 +101,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("WorkKnolege")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -219,6 +216,20 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("Roles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "55b5ead0-820b-48d3-8ebe-dc43564d8ed2",
+                            ConcurrencyStamp = "31b95770-03a3-4007-a3f5-1454e62f5e43",
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            Id = "8d5e05ec-de2b-4a2e-b35c-8480ff842a22",
+                            ConcurrencyStamp = "0f6247b8-e5aa-449a-9667-d921f8a9dbb3",
+                            Name = "BasicUser"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

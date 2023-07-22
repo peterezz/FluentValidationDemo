@@ -28,3 +28,18 @@ E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.AppLogic
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\refint\DairElAnbaBeshoy.AppLogic.dll
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.pdb
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\ref\DairElAnbaBeshoy.AppLogic.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\bin\Debug\net6.0\DairElAnbaBeshoy.AppLogic.deps.json
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\bin\Debug\net6.0\DairElAnbaBeshoy.AppLogic.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\bin\Debug\net6.0\DairElAnbaBeshoy.AppLogic.pdb
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\bin\Debug\net6.0\DairElAnbaBeshoy.Core.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\bin\Debug\net6.0\DairElAnbaBeshoy.Core.pdb
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.csproj.AssemblyReference.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.AssemblyInfoInputs.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.AssemblyInfo.cs
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.csproj.CoreCompileInputs.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.csproj.CopyComplete
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\refint\DairElAnbaBeshoy.AppLogic.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\DairElAnbaBeshoy.AppLogic.pdb
+D:\FluentValidationDemo\DairElAnbaBeshoy.AppLogic\obj\Debug\net6.0\ref\DairElAnbaBeshoy.AppLogic.dll

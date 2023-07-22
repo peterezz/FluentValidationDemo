@@ -1,12 +1,7 @@
 ﻿using AutoMapper;
+using DairElAnbaBeshoy.AppLogic.Repository;
 using DairElAnbaBeshoy.AppLogic.ViewModel;
 using DairElAnbaBeshoy.Core.Models;
-using DairElAnbaBeshoy.Core.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DairElAnbaBeshoy.AppLogic.Manager
 {
@@ -15,15 +10,15 @@ namespace DairElAnbaBeshoy.AppLogic.Manager
         private readonly BaseRepo<RetreaveStatuses> repo;
         private readonly IMapper mapper;
 
-        public RetreaveStatusesManager(ApplicationDbContext context, IMapper mapper)
+        public RetreaveStatusesManager( ApplicationDbContext context , IMapper mapper )
         {
             this.mapper = mapper;
-            repo = new BaseRepo<RetreaveStatuses>(context);
+            repo = new BaseRepo<RetreaveStatuses>( context );
         }
-        public void AddRetreaveStatus(RetreaveStatusesVM retreaveStatusVM)
+        public void AddRetreaveStatus( RetreaveStatusesVM retreaveStatusVM )
         {
-            var data= mapper.Map<RetreaveStatuses>(retreaveStatusVM);
-            repo.Add(data);
+            var data = mapper.Map<RetreaveStatuses>( retreaveStatusVM );
+            repo.Add( data );
         }
     }
 }

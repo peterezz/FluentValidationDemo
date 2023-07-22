@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj": {}
+    "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj": {}
   },
   "projects": {
-    "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj": {
+    "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj",
+        "projectUniqueName": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj",
         "projectName": "DairElAnbaBeshoy.AppLogic",
-        "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj",
+        "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj",
         "packagesPath": "C:\\Users\\hp 2022\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\obj\\",
+        "outputPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
-                "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj"
+              "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
+                "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj"
               }
             }
           }
@@ -73,18 +73,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
+    "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
+        "projectUniqueName": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
         "projectName": "DairElAnbaBeshoy.Core",
-        "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
+        "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
         "packagesPath": "C:\\Users\\hp 2022\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\obj\\",
+        "outputPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

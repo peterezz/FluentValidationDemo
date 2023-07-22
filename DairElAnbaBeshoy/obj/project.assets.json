@@ -10952,11 +10952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy\\DairElAnbaBeshoy.csproj",
+      "projectUniqueName": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\DairElAnbaBeshoy.csproj",
       "projectName": "DairElAnbaBeshoy",
-      "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy\\DairElAnbaBeshoy.csproj",
+      "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\DairElAnbaBeshoy.csproj",
       "packagesPath": "C:\\Users\\hp 2022\\.nuget\\packages\\",
-      "outputPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy\\obj\\",
+      "outputPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10973,11 +10973,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj": {
-              "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj"
+            "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj": {
+              "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.AppLogic\\DairElAnbaBeshoy.AppLogic.csproj"
             },
-            "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
-              "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj"
+            "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
+              "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj"
             }
           }
         }
@@ -11042,7 +11042,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

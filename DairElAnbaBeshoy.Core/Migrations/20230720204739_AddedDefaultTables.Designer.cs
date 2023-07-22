@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DairElAnbaBeshoy.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230120211030_AddIsApproveColumn")]
-    partial class AddIsApproveColumn
+    [Migration("20230720204739_AddedDefaultTables")]
+    partial class AddedDefaultTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,18 +33,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Church")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DateOfBirth")
+                    b.Property<DateTime?>("DateOfBirth")
+                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Diocese")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -65,7 +64,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Governorate")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -105,7 +103,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("WorkKnolege")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -129,7 +126,7 @@ namespace DairElAnbaBeshoy.Core.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("GoverGovernorate")
+                    b.Property<string>("Governorate")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -137,7 +134,7 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsApproved")
+                    b.Property<bool?>("IsApproved")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
@@ -168,6 +165,34 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.ToTable("Retreaves");
                 });
 
+            modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.RetreaveStatuses", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("ReservationStatus")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RetreaveStatuses");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -193,20 +218,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("Roles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "19d071fc-4481-4cc6-9f35-701bddcddac0",
-                            ConcurrencyStamp = "7cf52f6d-94eb-4f6d-9a58-6e160ed2cee7",
-                            Name = "Admin"
-                        },
-                        new
-                        {
-                            Id = "ae0d5294-f0b2-48ae-b726-75ada179aa20",
-                            ConcurrencyStamp = "8956f1c2-0b6b-4972-954a-210d4fc45bc1",
-                            Name = "BasicUser"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -326,6 +337,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.Navigation("ApplicationUser");
                 });
 
+            modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.RetreaveStatuses", b =>
+                {
+                    b.HasOne("DairElAnbaBeshoy.Core.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("retreaveStatuses")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -380,6 +402,8 @@ namespace DairElAnbaBeshoy.Core.Migrations
             modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Retreaves");
+
+                    b.Navigation("retreaveStatuses");
                 });
 #pragma warning restore 612, 618
         }

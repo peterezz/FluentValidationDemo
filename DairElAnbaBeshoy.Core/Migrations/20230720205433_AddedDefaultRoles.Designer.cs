@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DairElAnbaBeshoy.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230120165123_UpdateRetreaveTable")]
-    partial class UpdateRetreaveTable
+    [Migration("20230720205433_AddedDefaultRoles")]
+    partial class AddedDefaultRoles
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,18 +33,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Church")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DateOfBirth")
+                    b.Property<DateTime?>("DateOfBirth")
+                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Diocese")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -65,7 +64,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Governorate")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -105,7 +103,6 @@ namespace DairElAnbaBeshoy.Core.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("WorkKnolege")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -129,13 +126,18 @@ namespace DairElAnbaBeshoy.Core.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("GoverGovernorate")
+                    b.Property<string>("Governorate")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdCardPhoto")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IsApproved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("LoggedinUserId")
                         .IsRequired()
@@ -161,6 +163,34 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.HasIndex("LoggedinUserId");
 
                     b.ToTable("Retreaves");
+                });
+
+            modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.RetreaveStatuses", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("ReservationStatus")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RetreaveStatuses");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -192,14 +222,14 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "122e49a1-36fc-4536-91ce-b6a89b27a937",
-                            ConcurrencyStamp = "7584f780-028a-4cf1-b702-384cb3d5869e",
+                            Id = "55b5ead0-820b-48d3-8ebe-dc43564d8ed2",
+                            ConcurrencyStamp = "31b95770-03a3-4007-a3f5-1454e62f5e43",
                             Name = "Admin"
                         },
                         new
                         {
-                            Id = "06b5ecc1-bf8b-475f-ada1-b11830563e00",
-                            ConcurrencyStamp = "51a4fa06-96e7-4965-a198-0102044af2e8",
+                            Id = "8d5e05ec-de2b-4a2e-b35c-8480ff842a22",
+                            ConcurrencyStamp = "0f6247b8-e5aa-449a-9667-d921f8a9dbb3",
                             Name = "BasicUser"
                         });
                 });
@@ -321,6 +351,17 @@ namespace DairElAnbaBeshoy.Core.Migrations
                     b.Navigation("ApplicationUser");
                 });
 
+            modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.RetreaveStatuses", b =>
+                {
+                    b.HasOne("DairElAnbaBeshoy.Core.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("retreaveStatuses")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -375,6 +416,8 @@ namespace DairElAnbaBeshoy.Core.Migrations
             modelBuilder.Entity("DairElAnbaBeshoy.Core.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Retreaves");
+
+                    b.Navigation("retreaveStatuses");
                 });
 #pragma warning restore 612, 618
         }

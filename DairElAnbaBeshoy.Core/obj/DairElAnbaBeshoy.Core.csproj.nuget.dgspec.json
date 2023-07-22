@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {}
+    "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {}
   },
   "projects": {
-    "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
+    "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
+        "projectUniqueName": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
         "projectName": "DairElAnbaBeshoy.Core",
-        "projectPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
+        "projectPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\DairElAnbaBeshoy.Core.csproj",
         "packagesPath": "C:\\Users\\hp 2022\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo Projects\\DairElAnbaBeshoy\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\obj\\",
+        "outputPath": "D:\\FluentValidationDemo\\DairElAnbaBeshoy.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

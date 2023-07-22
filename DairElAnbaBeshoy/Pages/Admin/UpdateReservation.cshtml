@@ -21,7 +21,10 @@ width:50%;
             <p class="card-description">
                 دير الانبا بيشوى العامر
             </p>
-
+            <p style="color:red">
+                عدد الاماكن الخاليه:
+            @ViewData["NumEmptyPlaces"]
+            </p>
             <form class="forms-sample" method="post">
                 <div asp-validation-summary="All"></div>
                 <div class="form-group">
@@ -45,8 +48,8 @@ width:50%;
                     </span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="retreave.ReserveDateTime">تاريخ الخلوة </label>
-                    <input class="form-control form-control-lg" asp-for="retreave.ReserveDateTime" readonly>
+                    <label asp-for="retreave.ReserveDate">تاريخ الخلوة </label>
+                    <input class="form-control form-control-lg" asp-for="retreave.ReserveDate" readonly>
                    
                 </div>
                 <div class="form-group">
@@ -58,19 +61,14 @@ width:50%;
                     <label asp-for="retreave.Notes">ملاحظات</label>
                     <textarea class="form-control" asp-for="retreave.Notes" rows="4" readonly></textarea>
                 </div>
-
-
-
-                
-                <div class="form-group">
-                    <label asp-for="retreave.IsApproved">الموافقة على الخلوة  </label>
-                    <input type="checkbox" class="form-control form-control-lg" asp-for="retreave.IsApproved" >
-
-
-
-                </div>
-
+                @{
+                    bool ShowButton = false;
+                    if ( ViewData.ContainsKey( "ShowApproveButton" ) && bool.TryParse( ViewData[ "ShowApproveButton" ].ToString( ) , out ShowButton ) && ShowButton )
+                {
+                    
                 <button type="submit" class="btn btn-primary mr-2">قبول الطلب</button>
+                }
+                }
                 <a href="/admin/deletereservation?ReservationID=@Model.retreave.Id" class="btn btn-light">رفض الطلب</a>
             </form>
         </div>

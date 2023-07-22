@@ -26,3 +26,17 @@ E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.Core\obj
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.pdb
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.genruntimeconfig.cache
 E:\Demo Projects\DairElAnbaBeshoy\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\ref\DairElAnbaBeshoy.Core.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\bin\Debug\net6.0\DairElAnbaBeshoy.Core.deps.json
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\bin\Debug\net6.0\DairElAnbaBeshoy.Core.runtimeconfig.json
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\bin\Debug\net6.0\DairElAnbaBeshoy.Core.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\bin\Debug\net6.0\DairElAnbaBeshoy.Core.pdb
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.csproj.AssemblyReference.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.AssemblyInfoInputs.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.AssemblyInfo.cs
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.csproj.CoreCompileInputs.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\refint\DairElAnbaBeshoy.Core.dll
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.pdb
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\DairElAnbaBeshoy.Core.genruntimeconfig.cache
+D:\FluentValidationDemo\DairElAnbaBeshoy.Core\obj\Debug\net6.0\ref\DairElAnbaBeshoy.Core.dll

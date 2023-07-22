@@ -1,0 +1,645 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DairElAnbaBeshoy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DairElAnbaBeshoy.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\css\\templatemo-nomad-force.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-nomad-force.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\css\\vertical-layout-light\\style.css",
+      "PackagePath": "staticwebassets\\css\\vertical-layout-light\\style.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.material.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.material.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.material.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.material.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.uikit.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.uikit.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\dataTables.uikit.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.uikit.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\jquery.dataTables_themeroller.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables_themeroller.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\css\\jquery.dataTables_themeroller.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables_themeroller.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.material.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.material.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.material.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.material.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.uikit.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.uikit.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\dataTables.uikit.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.uikit.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\IdCards\\1559531f160-c54e-4505-ba72-6b29cc25c39f.jpg",
+      "PackagePath": "staticwebassets\\images\\IdCards\\1559531f160-c54e-4505-ba72-6b29cc25c39f.jpg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\IdCards\\558wallpaperflare.com_wallpaper 03.jpg",
+      "PackagePath": "staticwebassets\\images\\IdCards\\558wallpaperflare.com_wallpaper 03.jpg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\IdCards\\5819531f160-c54e-4505-ba72-6b29cc25c39f.jpg",
+      "PackagePath": "staticwebassets\\images\\IdCards\\5819531f160-c54e-4505-ba72-6b29cc25c39f.jpg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\IdCards\\630wallpaperflare.com_wallpaper 03.jpg",
+      "PackagePath": "staticwebassets\\images\\IdCards\\630wallpaperflare.com_wallpaper 03.jpg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\IdCards\\elena-rabkina-eVVzwsNhNf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\IdCards\\elena-rabkina-eVVzwsNhNf4-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\elena-rabkina-eVVzwsNhNf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\elena-rabkina-eVVzwsNhNf4-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic1.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic1.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic10.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic10.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic2.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic2.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic3.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic3.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic4.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic4.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic5.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic5.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic6.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic6.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic7.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic7.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic8.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic8.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\images\\pic9.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic9.jpeg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\AjaxCalls\\deleteRetreaveAjax.js",
+      "PackagePath": "staticwebassets\\js\\AjaxCalls\\deleteRetreaveAjax.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\DataTables\\allRetriversDataTable.js",
+      "PackagePath": "staticwebassets\\js\\DataTables\\allRetriversDataTable.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\js\\file-upload.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\magnific-popup-options.js",
+      "PackagePath": "staticwebassets\\js\\magnific-popup-options.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\scrollspy.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollspy.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\select2.js",
+      "PackagePath": "staticwebassets\\js\\select2.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\settings.js",
+      "PackagePath": "staticwebassets\\js\\settings.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\template.js",
+      "PackagePath": "staticwebassets\\js\\template.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\js\\todolist.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\tooltips.js",
+      "PackagePath": "staticwebassets\\js\\tooltips.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\js\\typeahead.js",
+      "PackagePath": "staticwebassets\\js\\typeahead.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootbox.js\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootbox.js\\bootbox.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typeahead.js\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendors\\typeahead.js\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typicons\\LICENCE.md",
+      "PackagePath": "staticwebassets\\vendors\\typicons\\LICENCE.md"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typicons\\typicons.css",
+      "PackagePath": "staticwebassets\\vendors\\typicons\\typicons.css"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typicons\\typicons.eot",
+      "PackagePath": "staticwebassets\\vendors\\typicons\\typicons.eot"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typicons\\typicons.svg",
+      "PackagePath": "staticwebassets\\vendors\\typicons\\typicons.svg"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typicons\\typicons.ttf",
+      "PackagePath": "staticwebassets\\vendors\\typicons\\typicons.ttf"
+    },
+    {
+      "Id": "D:\\FluentValidationDemo\\DairElAnbaBeshoy\\wwwroot\\vendors\\typicons\\typicons.woff",
+      "PackagePath": "staticwebassets\\vendors\\typicons\\typicons.woff"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DairElAnbaBeshoy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DairElAnbaBeshoy.props",
+      "PackagePath": "build\\DairElAnbaBeshoy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DairElAnbaBeshoy.props",
+      "PackagePath": "buildMultiTargeting\\DairElAnbaBeshoy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DairElAnbaBeshoy.props",
+      "PackagePath": "buildTransitive\\DairElAnbaBeshoy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

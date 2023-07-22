@@ -14,8 +14,15 @@
             <p class="card-description">
                 دير الانبا بيشوى العامر
             </p>
+            @if ( ViewData.ContainsKey( "RegisterSuccess" ) )
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewData["RegisterSuccess"]
+                </div>
+            }else
+            {
             <form class="forms-sample" method="post" enctype="multipart/form-data">
-                <div asp-validation-summary="All"></div>
+                <div asp-validation-summary="All" style="color:red;text-align:center"></div>
                 <div class="form-group">
                     <label asp-for="Input.ReserverFullName">الاسم</label>
                     <input type="text" class="form-control" asp-for="Input.ReserverFullName" placeholder="الاسم">
@@ -40,13 +47,10 @@
 
                 <div class="form-group">
                     <label asp-for="Input.IdCardPhotoFile">صورة البطاقه</label>
-                    <input type="file"  class="file-upload-default" asp-for="Input.IdCardPhotoFile">
-                    <div class="input-group col-xs-12">
-                        <input type="text" class="form-control file-upload-info" disabled="" placeholder="Upload Image">
-                        <span class="input-group-append">
-                            <button class="file-upload-browse btn btn-primary" type="button">تحميل</button>
-                        </span>
-                    </div>
+                <div class="custom-file">
+                            <input type="file" accept="image/png, image/jpeg"  asp-for="Input.IdCardPhotoFile">
+                    <label class="custom-file-label" asp-for="Input.IdCardPhotoFile">تحميل ملف</label>
+                </div>
                     <span asp-validation-for="Input.IdCardPhotoFile" class="text-danger"></span>
                 </div>
                 <div class="form-group">
@@ -58,9 +62,11 @@
                     <label asp-for="Input.Notes">ملاحظات</label>
                     <textarea class="form-control" asp-for="Input.Notes" rows="4"></textarea>
                 </div>
+                   
                 <button type="submit" class="btn btn-primary mr-2">تسجيل</button>
                 <a href="/" class="btn btn-light">الغاء</a>
             </form>
+            }
         </div>
     </div>
 </div>
