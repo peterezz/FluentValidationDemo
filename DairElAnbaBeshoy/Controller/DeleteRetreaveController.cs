@@ -12,9 +12,9 @@ namespace DairElAnbaBeshoy.Controller
     [Authorize(Roles =nameof(Roles.Admin))]
     public class DeleteRetreaveController : ControllerBase
     {
-        private readonly RegisterRetreaveManager registerRetreaveManager;
+        private readonly RetreaveManager registerRetreaveManager;
 
-        public DeleteRetreaveController(RegisterRetreaveManager registerRetreaveManager)
+        public DeleteRetreaveController(RetreaveManager registerRetreaveManager)
         {
             this.registerRetreaveManager = registerRetreaveManager;
         }

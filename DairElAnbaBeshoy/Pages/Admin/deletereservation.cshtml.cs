@@ -8,11 +8,11 @@ namespace DairElAnbaBeshoy.Pages.Admin
 {
     public class deletereservationModel : PageModel
     {
-        private readonly RegisterRetreaveManager registerRetreaveManager;
+        private readonly RetreaveManager registerRetreaveManager;
 
         [BindProperty(SupportsGet =true)]
         public int ReservationID { get; set; }
-        public deletereservationModel(RegisterRetreaveManager registerRetreaveManager)
+        public deletereservationModel(RetreaveManager registerRetreaveManager)
         {
             this.registerRetreaveManager = registerRetreaveManager;
         }

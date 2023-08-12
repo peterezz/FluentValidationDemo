@@ -13,13 +13,13 @@ namespace DairElAnbaBeshoy.Pages.reserve
     [Authorize( Roles = nameof( Roles.BasicUser ) )]
     public class retreatModel : PageModel
     {
-        private readonly RegisterRetreaveManager registerRetreaveManager;
+        private readonly RetreaveManager registerRetreaveManager;
         private readonly UserManager<ApplicationUser> userManager;
 
         [BindProperty]
         public RetreaveVM? Input { get; set; }
         private readonly RetreaveValidator retreaveValidator;
-        public retreatModel( RegisterRetreaveManager registerRetreaveManager , UserManager<ApplicationUser> userManager )
+        public retreatModel( RetreaveManager registerRetreaveManager , UserManager<ApplicationUser> userManager )
         {
             this.registerRetreaveManager = registerRetreaveManager;
             this.userManager = userManager;

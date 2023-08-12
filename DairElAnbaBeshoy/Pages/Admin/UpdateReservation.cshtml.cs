@@ -9,13 +9,13 @@ namespace DairElAnbaBeshoy.Pages.Admin
     public class UpdateReservationModel : PageModel
     {
 
-        private readonly RegisterRetreaveManager registerRetreaveManager;
+        private readonly RetreaveManager registerRetreaveManager;
 
         [BindProperty( SupportsGet = true )]
         public int ReservationID { get; set; }
         [BindProperty( SupportsGet = true )]
         public RetreaveVM retreave { get; set; }
-        public UpdateReservationModel( RegisterRetreaveManager registerRetreaveManager )
+        public UpdateReservationModel( RetreaveManager registerRetreaveManager )
         {
 
             this.registerRetreaveManager = registerRetreaveManager;
@@ -28,9 +28,8 @@ namespace DairElAnbaBeshoy.Pages.Admin
             retreave = registerRetreaveManager.GetRetreave( ReservationID );
             if ( retreave == null )
                 return NotFound( );
-            ViewData[ "NumEmptyPlaces" ] = retreave.NumEmptyPlaces;
-            if ( retreave.NumEmptyPlaces >= retreave.ResrversNumber )
-                ViewData[ "ShowApproveButton" ] = true;
+
+            ViewData[ "ShowApproveButton" ] = retreave.IsApproaved;
             return Page( );
 
         }

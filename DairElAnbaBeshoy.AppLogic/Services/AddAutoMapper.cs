@@ -21,7 +21,7 @@ namespace DairElAnbaBeshoy.AppLogic.Services
             var Mapper = config.CreateMapper();
             services.AddSingleton(Mapper);
 
-            services.AddScoped<RegisterRetreaveManager>();
+            services.AddScoped<RetreaveManager>();
             services.AddScoped<RetreaveStatusesManager>();
             return services;
         }

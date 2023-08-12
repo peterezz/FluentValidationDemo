@@ -13,9 +13,9 @@ namespace DairElAnbaBeshoy.Controller
     public class AllRetriversListController : ControllerBase
     {
 
-        private readonly RegisterRetreaveManager registerRetreaveManager;
+        private readonly RetreaveManager registerRetreaveManager;
 
-        public AllRetriversListController( RegisterRetreaveManager registerRetreaveManager )
+        public AllRetriversListController( RetreaveManager registerRetreaveManager )
         {
 
             this.registerRetreaveManager = registerRetreaveManager;
